@@ -1,0 +1,38 @@
+{
+  "name": "alfred-bower",
+  "version": "0.0.1",
+  "description": "Alfred 3 workflow to search for bower packages with Libraries.io",
+  "license": "MIT",
+  "repository": "LitoMore/alfred-bower",
+  "author": {
+    "name": "LitoMore",
+    "email": "litomore@gmail.com",
+    "url": "github.com/LitoMore"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "standard && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "standard": "^10.0.2"
+  }
+}

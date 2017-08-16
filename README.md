@@ -15,3 +15,7 @@ $ npm install -g alfred-bower
 In Alfred, type `bower`, <kbd>return</kbd>, and type the repo name you're looking for.
 
 Hold <kbd>command</kbd> to display the count of Star and Fork.
+
+## License
+
+MIT © [LitoMore](https://github.com/LitoMore)
